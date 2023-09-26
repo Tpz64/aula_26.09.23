@@ -54,3 +54,33 @@ for (let i=0; i< carros.length; i++){
 for (let carro of carros){
     console.log(carro)
 }
+
+// while - sem o cont++ entra em um lup infinito
+/*
+let cont =0
+while(cont<20){
+    console.log("Passagem de numeros " +cont)
+    cont++
+}
+*/
+//do while
+
+let valor2=0
+
+do{
+    console.log("Passagem" +valor2)
+    valor2++
+}while(valor2 <0)
+
+//Função
+
+function teste(num1,num2){
+    return num1+num2
+}
+console.log(teste(11,6))
+
+function avisar(){
+    alert("Avisar")
+    alert("Avisar parte 2")
+}
+avisar()
