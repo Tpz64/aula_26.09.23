@@ -1,3 +1,4 @@
+/*
 // switch
 
 //let opcao = 4;
@@ -64,7 +65,7 @@ while(cont<20){
 }
 */
 //do while
-
+/*
 let valor2=0
 
 do{
@@ -83,4 +84,12 @@ function avisar(){
     alert("Avisar")
     alert("Avisar parte 2")
 }
-avisar()
+avisar()*/
+
+let novo = document.getElementById("idNome")
+
+function mudar(){
+
+document.getElementById("titulo").innerHTML = novo.value
+
+}
